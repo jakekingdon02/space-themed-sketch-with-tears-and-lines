@@ -30,15 +30,15 @@ function drawPaintdropPattern() {
   for (let x = 0; x < width; x += spacing) {
     for (let y = 0; y < height; y += spacing) {
       // Draw the red stars.
-      fill("red");
+      fill("brown");
       drawPaintdropShape(x, y, paintdropSize);
 
       // Draw the yellow stars.
-      fill("yellow");
+      fill("green");
       drawPaintdropShape(x + spacing / 2, y + spacing / 2, paintdropSize);
 
       // Draw the blue stars.
-      fill("blue");
+      fill("purple");
       drawPaintdropShape(x, y + spacing, paintdropSize);
     }
   }
